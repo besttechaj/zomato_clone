@@ -16,7 +16,7 @@ header {
 #nav {
   background-color: transparent;
   /* border: 2px solid cyan; */
-  width: 90%;
+  width: 80%;
   margin: auto;
   margin-top: 1rem;
   display: flex;
@@ -24,9 +24,9 @@ header {
 }
 
 #nav_left {
+  width: 20%;
   /* border: 2px solid yellow; */
   display: flex;
-  justify-content: center;
   align-items: center;
 }
 
@@ -37,17 +37,22 @@ header {
 }
 
 #nav_right {
+  width: 50%;
   /* border: 2px solid red; */
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
+  display: flex;
+  align-items: center;
 }
 
 #nav_right > ul {
+  width: 100%;
+  /* background-color: orange; */
+  margin: 0;
+  padding: 0;
   display: flex;
-  gap: 3rem;
   list-style-type: none;
-  justify-content: space-evenly;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 #nav_right > ul > li > a {
