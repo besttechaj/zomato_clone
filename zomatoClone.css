@@ -330,6 +330,11 @@ header {
   box-shadow: 0px 3px 4px rgb(220, 218, 218);
 }
 
+.collections > .collections-3 > .collections-3b > .box:hover {
+  cursor: pointer;
+  box-shadow: 0px 7px 7px rgb(220, 218, 218);
+}
+
 .collections > .collections-3 > .collections-3b > .box > .box-1 {
   width: 80%;
   /* background-color: brown; */
@@ -357,4 +362,65 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.information {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  border: 3px solid red;
+}
+
+.information > .information-1 {
+  display: flex;
+  justify-content: center;
+}
+
+.information > .information-1 > .information-1-a {
+  border: 3px solid green;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30rem;
+}
+
+.information > .information-1 > .information-1-a > img {
+  width: 100%;
+  border: 2px solid yellow;
+}
+
+.information > .information-1 > .information-1-b {
+  border: 2px solid blue;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  padding-left: 2rem;
+}
+
+.information > .information-1 > .information-1-b > h2 {
+  margin: 0%;
+  color: #000000;
+  /* margin: 0px 0px 1.5rem; */
+  font-weight: 400;
+  font-size: 3rem;
+}
+
+.information > .information-1 > .information-1-b > p {
+  margin: 0%;
+  color: #363636;
+  /* margin: 0px 0px 1.5rem; */
+  font-weight: 300;
+  font-size: 1.1rem;
+}
+
+.information > .information-1 > .information-1-b > .information-1-b-a > input {
+  border: 2px solid pink;
+}
+
+.information > .information-1 > .information-1-b > .information-1-b-a > button {
+  border: 2px solid rgb(34, 180, 17);
 }
