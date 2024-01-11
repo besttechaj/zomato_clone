@@ -567,3 +567,57 @@ header {
 .fa-angle-down {
   font-size: 1rem;
 }
+
+/* footer -  section  */
+footer {
+  border: 2px solid red;
+  width: 80%;
+  margin: auto;
+}
+
+footer > .footer-1 {
+  border: 2px solid red;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+footer > .footer-1 > .footer-1a > img {
+  height: 1.5rem;
+  width: 9rem;
+}
+
+footer > .footer-1 > .footer-1b > select {
+  font-size: 1rem;
+  height: 2rem;
+  width: 7rem;
+  color: rgb(28, 28, 28);
+  font-weight: 400;
+  border-radius: 5px;
+  text-align: center;
+}
+/* 
+footer > .footer-1 > .footer-1b > .footer-1b-a {
+  position: relative;
+}
+
+.fa-globe {
+  position: absolute;
+  z-index: 1;
+  color: black;
+  top: 1rem;
+} */
+
+.footer-2 {
+  border: 2px solid red;
+  display: flex;
+}
+
+.footer-2 > .footer-2a {
+}
+
+.footer-2 > .footer-2a > h3 {
+  color: #000000;
+  font-size: 0.8rem;
+}
