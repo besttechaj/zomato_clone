@@ -841,20 +841,25 @@ footer > p {
   } */
 
   #varities {
-    background-color: white;
+    background-color: blue;
     display: flex;
-    width: 80%;
-    margin: auto;
-    justify-content: space-between;
-    padding: 2rem 0rem 0rem 0rem;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    width: 90%;
+    /* margin: auto; */
+    /* justify-content: space-between; */
+    padding: 1rem 0rem 0rem 0rem;
   }
 
   #varities > .common_varities {
-    width: 32%;
+    width: 48%;
     border-radius: 10px;
     background-color: white;
-    overflow: hidden;
+    /* overflow: hidden; */
     border: 1px solid rgb(176, 175, 175);
+    margin-bottom: 1rem;
+    /* to remove the extra space inside the box and make the size to content fit  */
+    height: fit-content;
   }
 
   #varities > .common_varities > img {
@@ -863,9 +868,9 @@ footer > p {
     width: 100%;
   }
 
-  /* test part  */
+  /* test is the parent of image  */
   #varities > .common_varities > .test {
-    height: 240px;
+    height: 100px;
     /* to hide the overflowing image out of its parent box  */
     overflow: hidden;
     object-fit: cover;
@@ -875,23 +880,24 @@ footer > p {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     width: 100%;
-    background-position-x: 100px;
+    height: 100%;
   }
 
   #varities > .common_varities > h2 {
     margin: 0%;
-    font-size: 1.4rem;
+    font-size: 1rem;
     font-weight: 500;
     color: rgb(54, 54, 54);
     padding-left: 0.6rem;
   }
 
   #varities > .common_varities > p {
+    font-size: 0.8rem;
     color: rgb(79, 79, 79);
     margin: 0%;
     font-weight: 400;
     padding-left: 0.6rem;
-    padding-bottom: 1rem;
+    padding-bottom: 0rem;
   }
 
   .common_varities:hover {
