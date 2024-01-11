@@ -370,11 +370,15 @@ header {
   display: flex;
   flex-direction: column;
   /* border: 3px solid red; */
+  margin-top: 8rem;
 }
 
 .information > .information-1 {
   display: flex;
+  align-items: center;
   justify-content: center;
+  /* background-color: yellow; */
+  margin: auto;
 }
 
 .information > .information-1 > .information-1-a {
@@ -383,11 +387,13 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 30rem;
+  height: 17rem;
+  overflow: hidden;
 }
 
 .information > .information-1 > .information-1-a > img {
   width: 100%;
+  height: 100%;
   /* border: 2px solid yellow; */
 }
 
