@@ -529,9 +529,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* margin-bottom: 1rem; */
   position: relative;
-  /* padding-left: 0.5rem; */
 }
 
 .information-2 > .information-2a > .information-2a-1 > h2 {
