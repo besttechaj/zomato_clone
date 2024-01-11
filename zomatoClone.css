@@ -452,6 +452,12 @@ header {
   padding-left: 1rem;
 }
 
+.information > .information-1 > .information-1-b > .information-1-b-b {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
 .information > .information-1 > .information-1-b > .information-1-b-b > button {
   height: 3.3rem;
   width: 30%;
@@ -493,4 +499,73 @@ header {
   > img {
   width: 100%;
   height: 100%;
+}
+
+.information-2 {
+  /* border: 2px solid red; */
+  background-color: #ffffff;
+}
+
+.information-2 > h1 {
+  color: #363636;
+  background-color: #fcfcfc;
+  font-size: 1.8rem;
+  font-weight: 900;
+  margin: 0;
+  margin-bottom: 2rem;
+}
+
+.information-2 > .information-2a {
+  display: flex;
+  flex-direction: column;
+  padding: 0rem 1rem 0rem 1rem;
+  width: 96.69%;
+  border: 2px solid rgb(237, 237, 237);
+  margin-bottom: 1rem;
+  border-radius: 10px;
+}
+
+.information-2 > .information-2a > .information-2a-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* margin-bottom: 1rem; */
+  position: relative;
+  /* padding-left: 0.5rem; */
+}
+
+.information-2 > .information-2a > .information-2a-1 > h2 {
+  color: #1c1c1c;
+  background-color: #ffffff;
+  font-size: 1.2rem;
+}
+
+.information-2 > .information-2a > .information-2a-1a {
+  position: relative;
+  /* background-color: blue; */
+  display: none;
+}
+
+.information-2 > .information-2a > .information-2a-1a > p {
+  color: #696969;
+  background-color: #ffffff;
+  font-size: 1rem;
+  margin: 0%;
+  margin-bottom: 0.5rem;
+}
+
+.information-2 > .information-2a:hover {
+  cursor: pointer;
+}
+
+.information-2 > .information-2a:hover .information-2a-1a {
+  display: block;
+}
+
+.information-2 > .information-2a:hover .information-2a-1a > p {
+  margin-top: 1rem;
+}
+
+.fa-angle-down {
+  font-size: 1rem;
 }
