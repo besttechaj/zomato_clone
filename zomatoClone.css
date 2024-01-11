@@ -369,7 +369,7 @@ header {
   margin: auto;
   display: flex;
   flex-direction: column;
-  border: 3px solid red;
+  /* border: 3px solid red; */
 }
 
 .information > .information-1 {
@@ -378,7 +378,7 @@ header {
 }
 
 .information > .information-1 > .information-1-a {
-  border: 3px solid green;
+  /* border: 3px solid green; */
   width: 30%;
   display: flex;
   justify-content: center;
@@ -388,11 +388,11 @@ header {
 
 .information > .information-1 > .information-1-a > img {
   width: 100%;
-  border: 2px solid yellow;
+  /* border: 2px solid yellow; */
 }
 
 .information > .information-1 > .information-1-b {
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
   color: white;
   display: flex;
   flex-direction: column;
@@ -417,10 +417,74 @@ header {
   font-size: 1.1rem;
 }
 
-.information > .information-1 > .information-1-b > .information-1-b-a > input {
-  border: 2px solid pink;
+.information > .information-1 > .information-1-b > .information-1-b-a {
+  height: 2rem;
+  padding: 1rem 0rem 0.5rem 0rem;
+  text-align: left;
 }
 
-.information > .information-1 > .information-1-b > .information-1-b-a > button {
-  border: 2px solid rgb(34, 180, 17);
+.information > .information-1 > .information-1-b > .information-1-b-a:hover {
+  cursor: pointer;
+}
+
+.information > .information-1 > .information-1-b > .information-1-b-b > input {
+  height: 3rem;
+  font-size: 1rem;
+  width: 60%;
+  border-radius: 10px;
+  background-color: #ffffff;
+  color: #1c1c1c;
+  /* border: none; */
+  border: 2px solid rgb(199, 197, 197);
+}
+
+.information
+  > .information-1
+  > .information-1-b
+  > .information-1-b-b
+  > input::placeholder {
+  padding-left: 1rem;
+}
+
+.information > .information-1 > .information-1-b > .information-1-b-b > button {
+  height: 3.3rem;
+  width: 30%;
+  border-radius: 10px;
+  font-size: 1rem;
+  background-color: #ef4f5f;
+  color: #ffffff;
+  border: none;
+}
+
+.information
+  > .information-1
+  > .information-1-b
+  > .information-1-b-b
+  > button:hover {
+  cursor: pointer;
+  background-color: #fa758f;
+}
+
+.information > .information-1 > .information-1-b > .information-1-b-c {
+  display: flex;
+  width: 60%;
+  gap: 2rem;
+}
+
+.information
+  > .information-1
+  > .information-1-b
+  > .information-1-b-c
+  > .information-1-b-c-a {
+  width: 40%;
+}
+
+.information
+  > .information-1
+  > .information-1-b
+  > .information-1-b-c
+  > .information-1-b-c-a
+  > img {
+  width: 100%;
+  height: 100%;
 }
